@@ -3,7 +3,7 @@
   "displayName": "Simple Plugin",
   "description": "",
   "repository": "https://github.com/voloshyn-denys-pepper/simple-plugin.git",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.81.0"
   },
