@@ -3,14 +3,16 @@
   "displayName": "Simple Plugin",
   "description": "",
   "repository": "https://github.com/voloshyn-denys-pepper/simple-plugin.git",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.81.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand:simple-plugin.sayHello"
+  ],
   "main": "./extension.js",
   "contributes": {
     "commands": [{
@@ -18,6 +20,7 @@
       "title": "Hello from Simple Plugin!"
     }]
   },
+  
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
