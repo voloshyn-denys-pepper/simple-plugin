@@ -2,6 +2,7 @@
   "name": "simpleplugin",
   "displayName": "SimplePlugin",
   "description": "",
+  "repository": "voloshyn-denys-pepper/simple-plugin",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.81.0"
