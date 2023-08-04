@@ -1,8 +1,8 @@
 {
   "name": "simpleplugin",
-  "displayName": "SimplePlugin",
+  "displayName": "Simple Plugin",
   "description": "",
-  "repository": "voloshyn-denys-pepper/simple-plugin",
+  "repository": "https://github.com/voloshyn-denys-pepper/simple-plugin.git",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.81.0"
@@ -14,8 +14,8 @@
   "main": "./extension.js",
   "contributes": {
     "commands": [{
-      "command": "simpleplugin.helloWorld",
-      "title": "Hello World"
+      "command": "simple-plugin.sayHello",
+      "title": "Hello from Simple Plugin!"
     }]
   },
   "scripts": {
